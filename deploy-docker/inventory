@@ -1,0 +1,4 @@
+localhost ansible_user = ubuntu
+
+[ubuntu18]
+172.17.0.3 ansible_user=keen_ramanujan
