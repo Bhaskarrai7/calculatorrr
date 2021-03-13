@@ -1,8 +1,8 @@
 ---
-- name: Pull docker image of calculatorrr
+- name: Pull docker image
   hosts: all
   tasks:
-    -name: Pull calculatorr devops image
-    docker_image:
-      name: rai07/calculatorrr
-      source: pull
+    - name: Pull image of working project from dockerhub
+      docker_image:
+        name: rai07/calculatorrr
+        source: pull
