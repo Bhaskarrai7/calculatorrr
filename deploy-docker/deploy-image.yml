@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of calculatorrr
-  hosts: all
+  hosts: localhost
   tasks:
     -name: Pull calculatorr devops image
     docker_image:
